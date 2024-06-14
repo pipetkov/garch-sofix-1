@@ -1,2 +1,0 @@
-# GARCH-SOFIX-master
- 
