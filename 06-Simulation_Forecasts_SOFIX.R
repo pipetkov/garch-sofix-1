@@ -4,7 +4,7 @@
 # 
 # This script will use the best garch model from previous script and simulate
 # many return series into the future. After the simulations, the code calculates 
-# probabilities for the simulated paths to reach the maximum value of index Ibovespa.
+# probabilities for the simulated paths to reach the maximum value of index SOFIX.
 
 ## OPTIONS
 
@@ -12,7 +12,7 @@ set.seed(20200315) # fix seed for simulations (20200315 replicates the paper's r
 n_sim <- 5000 # number of simulations (5000 was used in paper,
 # be aware that this code is memory intensive and might freeze your computer. 
 # Increase n_sim at your own risk!!
-n_days_ahead <- 75*365 # Number of days ahead to simulate (10*365 in paper)
+n_days_ahead <- 75*365 # Number of days ahead to simulate 
 
 ## END OPTIONS
 
